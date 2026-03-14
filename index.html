@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabor Divino - Experiência Culinária Inesquecível</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 2L14 8L20 10L14 12L12 18L10 12L4 10L10 8L12 2Z" fill="#E53935"/>
+                    </svg>
+                    <span>Restaurante Sabor Divino</span>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <a href="#menu" class="nav-link">Menu</a>
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </nav>
+                
+                <button class="btn-primary">Reserva Agora</button>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Uma Experiência Culinária Inesquecível</h1>
+            <p class="hero-subtitle">Ingredientes frescos e locais, pratos clássicos com um toque contemporâneo<br>e um ambiente acolhedor.</p>
+            <button class="btn-hero">Reservar Online</button>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="sobre">
+        <div class="container">
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&h=60&fit=crop" alt="Maria R." class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Maria R.</h4>
+                            <div class="testimonial-stars">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"A comida estava absolutamente deliciosa! Mais importante ainda, é que o atendimento foi excelente. Com certeza irei voltar!"</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop" alt="João P." class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">João P.</h4>
+                            <div class="testimonial-stars">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Ambiente aconchegante e menu impecável. Também tiveram um ótimo vinho para acompanhar minha refeição."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop" alt="Ana L." class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Ana L.</h4>
+                            <div class="testimonial-stars">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Todos os pratos são incríveis! Você literalmente não vai conseguir parar de comer. Realmente muito satisfeita!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">Nosso Menu</h2>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="entradas">Entradas</button>
+                <button class="menu-tab" data-category="pratos-principais">Pratos Principais</button>
+                <button class="menu-tab" data-category="sobremesas">Sobremesas</button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Entradas -->
+                <div class="menu-items active" data-content="entradas">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=400&h=300&fit=crop" alt="Bruschetta à Pomodoro">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Bruschetta à Pomodoro</h3>
+                            <p class="menu-card-description">Fatias de pão italiano torrado com tomates frescos, alho, manjericão e azeite extra virgem.</p>
+                            <p class="menu-card-price">R$ 32,00</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.Ab9mTvkvZ9nKQuUmYLgc9gHaFk?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Carpaccio de Salmão">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Carpaccio de Salmão</h3>
+                            <p class="menu-card-description">Fatias finas de salmão fresco com alcaparras, cebola roxa, azeite de oliva e raspas de limão siciliano.</p>
+                            <p class="menu-card-price">R$ 45,00</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop" alt="Dadinho de Tapioca">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Dadinho de Tapioca</h3>
+                            <p class="menu-card-description">Cubos de tapioca empanados e fritos, servidos com geleia de pimenta picante para mergulhar.</p>
+                            <p class="menu-card-price">R$ 28,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pratos Principais -->
+                <div class="menu-items" data-content="pratos-principais">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400&h=300&fit=crop" alt="Filé Mignon ao Molho Madeira">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Filé Mignon ao Molho Madeira</h3>
+                            <p class="menu-card-description">Filé mignon grelhado ao ponto, acompanhado de molho madeira, batatas rústicas e legumes salteados.</p>
+                            <p class="menu-card-price">R$ 78,00</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://espaconatelie.com.br/wp-content/uploads/2025/08/receita-de-camarao-para-risoto.jpg" alt="Risoto de Camarão">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Risoto de Camarão</h3>
+                            <p class="menu-card-description">Risoto cremoso com camarões frescos, alho-poró, vinho branco, finalizado com parmesão e ervas.</p>
+                            <p class="menu-card-price">R$ 68,00</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop" alt="Salmão Grelhado">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Salmão Grelhado</h3>
+                            <p class="menu-card-description">Salmão grelhado com crosta de ervas, acompanhado de purê de batata-doce e aspargos frescos.</p>
+                            <p class="menu-card-price">R$ 72,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sobremesas -->
+                <div class="menu-items" data-content="sobremesas">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop" alt="Tiramisu Clássico">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Tiramisu Clássico</h3>
+                            <p class="menu-card-description">Sobremesa italiana tradicional com camadas de biscoito champanhe, café espresso, mascarpone e cacau.</p>
+                            <p class="menu-card-price">R$ 24,00</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=400&h=300&fit=crop" alt="Petit Gâteau">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Petit Gâteau</h3>
+                            <p class="menu-card-description">Bolinho quente de chocolate com recheio cremoso, servido com sorvete de creme e calda de frutas vermelhas.</p>
+                            <p class="menu-card-price">R$ 28,00</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=400&h=300&fit=crop" alt="Cheesecake de Frutas Vermelhas">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Cheesecake de Frutas Vermelhas</h3>
+                            <p class="menu-card-description">Cheesecake cremoso com base crocante, coberto com calda de frutas vermelhas frescas.</p>
+                            <p class="menu-card-price">R$ 26,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Footer Section -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Contato e Endereço -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Contato e Endereço</h3>
+                    <div class="footer-info">
+                        <p>Av. Gourmet, 789 - Jardim Gastronômico</p>
+                        <p>São Paulo - SP</p>
+                        <p>CEP: 01234-567</p>
+                        <p><br>Tel: (11) 91234-5678</p>
+                        <p>contato@sabordivino.com</p>
+                    </div>
+                </div>
+
+                <!-- Horário de Funcionamento -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Horário de Funcionamento</h3>
+                    <div class="footer-info">
+                        <p><strong>Terça a Sexta:</strong> 18h - 23h</p>
+                        <p><strong>Sábado e Domingo:</strong> 12h - 16h / 18h - 23h</p>
+                        <p><strong>Segunda:</strong> Fechado</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Instagram">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.509-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Facebook">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Envie uma Mensagem -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Envie uma Mensagem</h3>
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="Seu Nome" required class="form-input">
+                        <input type="email" placeholder="Seu E-mail" required class="form-input">
+                        <textarea placeholder="Sua Mensagem" required class="form-textarea"></textarea>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Restaurante Sabor Divino. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
